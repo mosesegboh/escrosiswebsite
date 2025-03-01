@@ -1,10 +1,8 @@
-// import './App.css'
 import React from 'react';
 
 function Home() {
     return (
         <>
-
             <div id="preloader">
                 <div className="loader">
                     <img src="img/three-dots.svg" width="60" alt="" />
@@ -30,7 +28,7 @@ function Home() {
                                 <span className="icon-bar"></span>
                             </button>
                             <a href="#" className="brand logo-light">
-                                <img src="img/logo-light.png" alt="Apptech" />
+                                <img src="img/modified_logo_updated.png" alt="Apptech" />
                             </a>
                             <a href="#" className="brand logo-dark">
                                 <img src="img/logo-dark.png" alt="Apptech" />
@@ -48,21 +46,23 @@ function Home() {
                                         Features
                                     </a>
                                 </li>
-                                <li>
-                                    <a data-scroll href="#screenshots">
-                                        Screenshots
-                                    </a>
-                                </li>
-                                <li>
-                                    <a data-scroll href="#testimonial">
-                                        Testimonial
-                                    </a>
-                                </li>
-                                <li>
-                                    <a data-scroll href="#pricing">
-                                        Pricing
-                                    </a>
-                                </li>
+                                {/*<editor-fold desc="Nav Section">*/}
+                                {/*<li>*/}
+                                {/*    <a data-scroll href="#screenshots">*/}
+                                {/*        Screenshots*/}
+                                {/*    </a>*/}
+                                {/*</li>*/}
+                                {/*<li>*/}
+                                {/*    <a data-scroll href="#testimonial">*/}
+                                {/*        Testimonial*/}
+                                {/*    </a>*/}
+                                {/*</li>*/}
+                                {/*<li>*/}
+                                {/*    <a data-scroll href="#pricing">*/}
+                                {/*        Pricing*/}
+                                {/*    </a>*/}
+                                {/*</li>*/}
+                                {/*</editor-fold>*/}
                                 <li>
                                     <a data-scroll href="#download">
                                         Download
@@ -147,15 +147,15 @@ function Home() {
                                 <div className="clearfix"></div>
                                 <h4>Personalized User Support</h4>
                                 <p>
-                                    Out 24/7 support specialists are ever ready to settle any transaction disputes and enquiries.
+                                    Our 24/7 support specialists are ever ready to settle any transaction disputes and enquiries.
                                 </p>
                             </li>
                             <li className="feature_item">
                                 <i className=" icon-profile-male"></i>
                                 <div className="clearfix"></div>
-                                <h4>Great Community</h4>
+                                <h4>Best Rates</h4>
                                 <p>
-                                    .
+                                    You can be rest assured that we shall provide you with the best rates amongst other platforms around
                                 </p>
                             </li>
                         </ul>
@@ -164,184 +164,188 @@ function Home() {
             </section>
 
 
-            <section id="testimonial" className="testimonial_section overlay">
-                <div className="container">
-                    <div className="col-sm-8 col-sm-offset-2">
-                        <div id="testimonial_carousel" className="carousel slide testimonial" data-ride="carousel">
-                            {/* Indicators */}
-                            <ul className="client_thumb carousel-indicators">
-                                <li data-target="#testimonial_carousel" data-slide-to="0" className="active">
-                                    <img src="img/testimonial-1.jpg" alt="Client Thumb" />
-                                </li>
-                                <li data-target="#testimonial_carousel" data-slide-to="1">
-                                    <img src="img/testimonial-2.jpg" alt="Client Thumb" />
-                                </li>
-                                <li data-target="#testimonial_carousel" data-slide-to="2">
-                                    <img src="img/testimonial-3.jpg" alt="Client Thumb" />
-                                </li>
-                            </ul>
+            {/*<editor-fold desc="Testimonial Section">*/}
+            {/*<section id="testimonial" className="testimonial_section overlay">*/}
+            {/*    <div className="container">*/}
+            {/*        <div className="col-sm-8 col-sm-offset-2">*/}
+            {/*            <div id="testimonial_carousel" className="carousel slide testimonial" data-ride="carousel">*/}
+            {/*                /!* Indicators *!/*/}
+            {/*                <ul className="client_thumb carousel-indicators">*/}
+            {/*                    <li data-target="#testimonial_carousel" data-slide-to="0" className="active">*/}
+            {/*                        <img src="img/testimonial-1.jpg" alt="Client Thumb" />*/}
+            {/*                    </li>*/}
+            {/*                    <li data-target="#testimonial_carousel" data-slide-to="1">*/}
+            {/*                        <img src="img/testimonial-2.jpg" alt="Client Thumb" />*/}
+            {/*                    </li>*/}
+            {/*                    <li data-target="#testimonial_carousel" data-slide-to="2">*/}
+            {/*                        <img src="img/testimonial-3.jpg" alt="Client Thumb" />*/}
+            {/*                    </li>*/}
+            {/*                </ul>*/}
 
-                            {/* Wrapper for slides */}
-                            <div className="carousel-inner" role="listbox">
-                                <div className="item active">
-                                    <div className="testi_content">
-                                        <h3>MICHEL BROWN | FACEBOOK</h3>
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and <br />
-                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="item">
-                                    <div className="testi_content">
-                                        <h3>ANGELINA ROSE | TWITTER</h3>
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and <br />
-                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="item">
-                                    <div className="testi_content">
-                                        <h3>STEPHEN ROBERTS | GOOGLE</h3>
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and <br />
-                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+            {/*                /!* Wrapper for slides *!/*/}
+            {/*                <div className="carousel-inner" role="listbox">*/}
+            {/*                    <div className="item active">*/}
+            {/*                        <div className="testi_content">*/}
+            {/*                            <h3>MICHEL BROWN | FACEBOOK</h3>*/}
+            {/*                            <p>*/}
+            {/*                                Lorem Ipsum is simply dummy text of the printing and <br />*/}
+            {/*                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.*/}
+            {/*                            </p>*/}
+            {/*                        </div>*/}
+            {/*                    </div>*/}
+            {/*                    <div className="item">*/}
+            {/*                        <div className="testi_content">*/}
+            {/*                            <h3>ANGELINA ROSE | TWITTER</h3>*/}
+            {/*                            <p>*/}
+            {/*                                Lorem Ipsum is simply dummy text of the printing and <br />*/}
+            {/*                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.*/}
+            {/*                            </p>*/}
+            {/*                        </div>*/}
+            {/*                    </div>*/}
+            {/*                    <div className="item">*/}
+            {/*                        <div className="testi_content">*/}
+            {/*                            <h3>STEPHEN ROBERTS | GOOGLE</h3>*/}
+            {/*                            <p>*/}
+            {/*                                Lorem Ipsum is simply dummy text of the printing and <br />*/}
+            {/*                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.*/}
+            {/*                            </p>*/}
+            {/*                        </div>*/}
+            {/*                    </div>*/}
+            {/*                </div>*/}
 
-                            {/* Controls */}
-                            <div className="testi_control">
-                                <a className="carousel-control left_arrow" href="#testimonial_carousel" data-slide="prev">
-                                    <i className="fa fa-chevron-left"></i>
-                                </a>
-                                <a className="carousel-control right_arrow" href="#testimonial_carousel" data-slide="next">
-                                    <i className="fa fa-chevron-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            {/*                /!* Controls *!/*/}
+            {/*                <div className="testi_control">*/}
+            {/*                    <a className="carousel-control left_arrow" href="#testimonial_carousel" data-slide="prev">*/}
+            {/*                        <i className="fa fa-chevron-left"></i>*/}
+            {/*                    </a>*/}
+            {/*                    <a className="carousel-control right_arrow" href="#testimonial_carousel" data-slide="next">*/}
+            {/*                        <i className="fa fa-chevron-right"></i>*/}
+            {/*                    </a>*/}
+            {/*                </div>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
+            {/*</editor-fold>*/}
 
 
-            <section id="pricing" className="pricing_section padding">
-                <div className="container">
-                    <div className="section_heading align-center mb-40">
-                        <h2>Ready To Purchase?</h2>
-                        <p>Is amazing, modern and clean landing page for showcase your app.</p>
-                    </div>
-                    {/* Section Heading */}
-                    <ul className="pricing_tables">
-                        <li
-                            className="col-md-3 col-xs-6 wow fadeInLeft"
-                            data-wow-delay="0ms"
-                            data-wow-duration="2000ms"
-                        >
-                            <div className="pricing_table align-center">
-                                <div className="pricing_head">
-                                    <h4>STARTER</h4>
-                                    <span className="price">$49</span>
-                                    <h4>PER MONTH</h4>
-                                </div>
-                                <ul>
-                                    <li>1GB File storage</li>
-                                    <li>Unlimited products</li>
-                                    <li>Free Updates</li>
-                                    <li>New Offer Free</li>
-                                    <li>24/7 Support</li>
-                                </ul>
-                                <div className="pricing_footer">
-                                    <a href="#" className="fs_btn">
-                                        Buy Now
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        {/* table 1 */}
-                        <li
-                            className="col-md-3 col-xs-6 wow fadeInLeft"
-                            data-wow-delay="100ms"
-                            data-wow-duration="2000ms"
-                        >
-                            <div className="pricing_table align-center">
-                                <div className="pricing_head">
-                                    <h4>BASIC</h4>
-                                    <span className="price">$99</span>
-                                    <h4>PER MONTH</h4>
-                                </div>
-                                <ul>
-                                    <li>1GB File storage</li>
-                                    <li>Unlimited products</li>
-                                    <li>Free Updates</li>
-                                    <li>New Offer Free</li>
-                                    <li>24/7 Support</li>
-                                </ul>
-                                <div className="pricing_footer">
-                                    <a href="#" className="fs_btn">
-                                        Buy Now
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        {/* table 2 */}
-                        <li
-                            className="col-md-3 col-xs-6 wow fadeInLeft"
-                            data-wow-delay="300ms"
-                            data-wow-duration="2000ms"
-                        >
-                            <div className="pricing_table align-center">
-                                <div className="pricing_head">
-                                    <h4>PREMIUM</h4>
-                                    <span className="price">$249</span>
-                                    <h4>PER MONTH</h4>
-                                </div>
-                                <ul>
-                                    <li>1GB File storage</li>
-                                    <li>Unlimited products</li>
-                                    <li>Free Updates</li>
-                                    <li>New Offer Free</li>
-                                    <li>24/7 Support</li>
-                                </ul>
-                                <div className="pricing_footer">
-                                    <a href="#" className="fs_btn">
-                                        Buy Now
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        {/* table 3 */}
-                        <li
-                            className="col-md-3 col-xs-6 wow fadeInLeft"
-                            data-wow-delay="400ms"
-                            data-wow-duration="2000ms"
-                        >
-                            <div className="pricing_table align-center">
-                                <div className="pricing_head">
-                                    <h4>BUSINESS</h4>
-                                    <span className="price">$499</span>
-                                    <h4>PER MONTH</h4>
-                                </div>
-                                <ul>
-                                    <li>1GB File storage</li>
-                                    <li>Unlimited products</li>
-                                    <li>Free Updates</li>
-                                    <li>New Offer Free</li>
-                                    <li>24/7 Support</li>
-                                </ul>
-                                <div className="pricing_footer">
-                                    <a href="#" className="fs_btn">
-                                        Buy Now
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        {/* table 4 */}
-                    </ul>
-                </div>
-            </section>
+            {/*<editor-fold desc="Pricing Section">*/}
+            {/*<section id="pricing" className="pricing_section padding">*/}
+            {/*    <div className="container">*/}
+            {/*        <div className="section_heading align-center mb-40">*/}
+            {/*            <h2>Ready To Purchase?</h2>*/}
+            {/*            <p>Is amazing, modern and clean landing page for showcase your app.</p>*/}
+            {/*        </div>*/}
+            {/*        /!* Section Heading *!/*/}
+            {/*        <ul className="pricing_tables">*/}
+            {/*            <li*/}
+            {/*                className="col-md-3 col-xs-6 wow fadeInLeft"*/}
+            {/*                data-wow-delay="0ms"*/}
+            {/*                data-wow-duration="2000ms"*/}
+            {/*            >*/}
+            {/*                <div className="pricing_table align-center">*/}
+            {/*                    <div className="pricing_head">*/}
+            {/*                        <h4>STARTER</h4>*/}
+            {/*                        <span className="price">$49</span>*/}
+            {/*                        <h4>PER MONTH</h4>*/}
+            {/*                    </div>*/}
+            {/*                    <ul>*/}
+            {/*                        <li>1GB File storage</li>*/}
+            {/*                        <li>Unlimited products</li>*/}
+            {/*                        <li>Free Updates</li>*/}
+            {/*                        <li>New Offer Free</li>*/}
+            {/*                        <li>24/7 Support</li>*/}
+            {/*                    </ul>*/}
+            {/*                    <div className="pricing_footer">*/}
+            {/*                        <a href="#" className="fs_btn">*/}
+            {/*                            Buy Now*/}
+            {/*                        </a>*/}
+            {/*                    </div>*/}
+            {/*                </div>*/}
+            {/*            </li>*/}
+            {/*            /!* table 1 *!/*/}
+            {/*            <li*/}
+            {/*                className="col-md-3 col-xs-6 wow fadeInLeft"*/}
+            {/*                data-wow-delay="100ms"*/}
+            {/*                data-wow-duration="2000ms"*/}
+            {/*            >*/}
+            {/*                <div className="pricing_table align-center">*/}
+            {/*                    <div className="pricing_head">*/}
+            {/*                        <h4>BASIC</h4>*/}
+            {/*                        <span className="price">$99</span>*/}
+            {/*                        <h4>PER MONTH</h4>*/}
+            {/*                    </div>*/}
+            {/*                    <ul>*/}
+            {/*                        <li>1GB File storage</li>*/}
+            {/*                        <li>Unlimited products</li>*/}
+            {/*                        <li>Free Updates</li>*/}
+            {/*                        <li>New Offer Free</li>*/}
+            {/*                        <li>24/7 Support</li>*/}
+            {/*                    </ul>*/}
+            {/*                    <div className="pricing_footer">*/}
+            {/*                        <a href="#" className="fs_btn">*/}
+            {/*                            Buy Now*/}
+            {/*                        </a>*/}
+            {/*                    </div>*/}
+            {/*                </div>*/}
+            {/*            </li>*/}
+            {/*            /!* table 2 *!/*/}
+            {/*            <li*/}
+            {/*                className="col-md-3 col-xs-6 wow fadeInLeft"*/}
+            {/*                data-wow-delay="300ms"*/}
+            {/*                data-wow-duration="2000ms"*/}
+            {/*            >*/}
+            {/*                <div className="pricing_table align-center">*/}
+            {/*                    <div className="pricing_head">*/}
+            {/*                        <h4>PREMIUM</h4>*/}
+            {/*                        <span className="price">$249</span>*/}
+            {/*                        <h4>PER MONTH</h4>*/}
+            {/*                    </div>*/}
+            {/*                    <ul>*/}
+            {/*                        <li>1GB File storage</li>*/}
+            {/*                        <li>Unlimited products</li>*/}
+            {/*                        <li>Free Updates</li>*/}
+            {/*                        <li>New Offer Free</li>*/}
+            {/*                        <li>24/7 Support</li>*/}
+            {/*                    </ul>*/}
+            {/*                    <div className="pricing_footer">*/}
+            {/*                        <a href="#" className="fs_btn">*/}
+            {/*                            Buy Now*/}
+            {/*                        </a>*/}
+            {/*                    </div>*/}
+            {/*                </div>*/}
+            {/*            </li>*/}
+            {/*            /!* table 3 *!/*/}
+            {/*            <li*/}
+            {/*                className="col-md-3 col-xs-6 wow fadeInLeft"*/}
+            {/*                data-wow-delay="400ms"*/}
+            {/*                data-wow-duration="2000ms"*/}
+            {/*            >*/}
+            {/*                <div className="pricing_table align-center">*/}
+            {/*                    <div className="pricing_head">*/}
+            {/*                        <h4>BUSINESS</h4>*/}
+            {/*                        <span className="price">$499</span>*/}
+            {/*                        <h4>PER MONTH</h4>*/}
+            {/*                    </div>*/}
+            {/*                    <ul>*/}
+            {/*                        <li>1GB File storage</li>*/}
+            {/*                        <li>Unlimited products</li>*/}
+            {/*                        <li>Free Updates</li>*/}
+            {/*                        <li>New Offer Free</li>*/}
+            {/*                        <li>24/7 Support</li>*/}
+            {/*                    </ul>*/}
+            {/*                    <div className="pricing_footer">*/}
+            {/*                        <a href="#" className="fs_btn">*/}
+            {/*                            Buy Now*/}
+            {/*                        </a>*/}
+            {/*                    </div>*/}
+            {/*                </div>*/}
+            {/*            </li>*/}
+            {/*            /!* table 4 *!/*/}
+            {/*        </ul>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
+            {/*</editor-fold>*/}
 
 
             <section id="download" className="dl_section overlay padding">
@@ -354,10 +358,10 @@ function Home() {
                     </div>
                     <div className="col-sm-8">
                         <div className="dl_content">
-                            <h2 className="text-white">Get Your Apptech App today!</h2>
+                            <h2 className="text-white">Get Your Escrosis App today!</h2>
                             <p>
-                                Customers have been downloaded and actively using our app <br />
-                                successfully.GET STARTED FOR FREE.
+                                Join thousands of happy users actively using our app <br />
+                                GET STARTED FOR FREE.
                             </p>
                             <div className="btn_group">
                                 <a href="#" className="dl_btn">
@@ -380,9 +384,9 @@ function Home() {
             <section id="subscribe" className="subscribe_section padding">
                 <div className="container">
                     <div className="col-sm-5 xs-padding">
-                        <h2>About Apptech App.</h2>
+                        <h2>About Escrosis</h2>
                         <p>
-                            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+                            At Escrosis, where we are redefining financial experiences for a modern world. Our mission is to empower individuals and businesses with seamless, secure, and innovative financial solutions that help navigate today’s complex financial landscape with ease and confidence.
                         </p>
                         <ul className="social_link">
                             <li>
@@ -397,19 +401,19 @@ function Home() {
                             </li>
                             <li>
                                 <a href="#">
-                                    <i className="fa fa-google-plus"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
                                     <i className="fa fa-instagram"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <i className="fa fa-skype"></i>
-                                </a>
-                            </li>
+                            {/*<li>*/}
+                            {/*    <a href="#">*/}
+                            {/*        <i className="fa fa-google-plus"></i>*/}
+                            {/*    </a>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*    <a href="#">*/}
+                            {/*        <i className="fa fa-skype"></i>*/}
+                            {/*    </a>*/}
+                            {/*</li>*/}
                         </ul>
                     </div>
                     <div className="col-sm-7 xs-padding">
@@ -443,7 +447,7 @@ function Home() {
 
 
             <footer className="footer_section">
-                <p>&copy; 2017 Apptech Powered by AlexaTheme.</p>
+                <p>&copy; 2017 Escrosis</p>
             </footer>
 
             <a data-scroll href="#header" id="scroll-to-top">
