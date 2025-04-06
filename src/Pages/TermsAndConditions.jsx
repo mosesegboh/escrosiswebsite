@@ -234,8 +234,8 @@ const TermsAndConditions = () => {
                 </li>
                 <li>
                     <strong>Dispute Resolution:</strong> Any dispute arising out of or relating to these Terms
-                    or the Services shall be resolved through <strong>binding arbitration</strong> in [your
-                    jurisdiction], except where prohibited by law. The arbitration shall be conducted in English
+                    or the Services shall be resolved through <strong>binding arbitration</strong> in the current
+                    jurisdiction, except where prohibited by law. The arbitration shall be conducted in English
                     by a single arbitrator.
                 </li>
                 <li>

@@ -74,7 +74,7 @@ function Footer() {
             )}
 
             {/* Render Terms and conditions modal using the correct state variable */}
-            {showModalPrivacyPolicy && (
+            {showModalTermsAndConditions && (
                 <div className="modal-overlay" onClick={() => setShowModalTermsAndConditions(false)}>
                     <div
                         className="modal-content"
