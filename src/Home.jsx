@@ -9,75 +9,76 @@ function Home() {
                 </div>
             </div>
 
-
-            <header id="header" className="header_section">
-                <nav className="navbar">
-                    <div className="container">
-                        <div className="navbar-header">
-                            <button
-                                type="button"
-                                className="nav-btn navbar-toggle collapsed"
-                                data-toggle="collapse"
-                                data-target="#navbar"
-                                aria-expanded="false"
-                                aria-controls="navbar"
-                            >
-                                <span className="sr-only">Toggle navigation</span>
-                                <span className="icon-bar"></span>
-                                <span className="icon-bar"></span>
-                                <span className="icon-bar"></span>
-                            </button>
-                            <a href="#" className="brand logo-light">
-                                <img src="img/modified_logo_updated.png" alt="Apptech" />
-                            </a>
-                            <a href="#" className="brand logo-dark">
-                                <img src="img/logo-dark.png" alt="Apptech" />
-                            </a>
-                        </div>
-                        <div id="navbar" className="collapse navbar-collapse navbar-right">
-                            <ul className="nav navbar-nav nav-menu">
-                                <li className="active">
-                                    <a data-scroll href="#home">
-                                        Home <span className="sr-only">(current)</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a data-scroll href="#features">
-                                        Features
-                                    </a>
-                                </li>
-                                {/*<editor-fold desc="Nav Section">*/}
-                                {/*<li>*/}
-                                {/*    <a data-scroll href="#screenshots">*/}
-                                {/*        Screenshots*/}
-                                {/*    </a>*/}
-                                {/*</li>*/}
-                                {/*<li>*/}
-                                {/*    <a data-scroll href="#testimonial">*/}
-                                {/*        Testimonial*/}
-                                {/*    </a>*/}
-                                {/*</li>*/}
-                                {/*<li>*/}
-                                {/*    <a data-scroll href="#pricing">*/}
-                                {/*        Pricing*/}
-                                {/*    </a>*/}
-                                {/*</li>*/}
-                                {/*</editor-fold>*/}
-                                <li>
-                                    <a data-scroll href="#download">
-                                        Download
-                                    </a>
-                                </li>
-                                <li>
-                                    <a data-scroll href="#subscribe">
-                                        Subscribe
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </header>
+            {/*<editor-fold desc="Header">*/}
+            {/*<header id="header" className="header_section">*/}
+            {/*    <nav className="navbar">*/}
+            {/*        <div className="container">*/}
+            {/*            <div className="navbar-header">*/}
+            {/*                <button*/}
+            {/*                    type="button"*/}
+            {/*                    className="nav-btn navbar-toggle collapsed"*/}
+            {/*                    data-toggle="collapse"*/}
+            {/*                    data-target="#navbar"*/}
+            {/*                    aria-expanded="false"*/}
+            {/*                    aria-controls="navbar"*/}
+            {/*                >*/}
+            {/*                    <span className="sr-only">Toggle navigation</span>*/}
+            {/*                    <span className="icon-bar"></span>*/}
+            {/*                    <span className="icon-bar"></span>*/}
+            {/*                    <span className="icon-bar"></span>*/}
+            {/*                </button>*/}
+            {/*                <a href="#" className="brand logo-light">*/}
+            {/*                    <img src="img/modified_logo_updated.png" alt="Apptech" />*/}
+            {/*                </a>*/}
+            {/*                <a href="#" className="brand logo-dark">*/}
+            {/*                    <img src="img/logo-dark.png" alt="Apptech" />*/}
+            {/*                </a>*/}
+            {/*            </div>*/}
+            {/*            <div id="navbar" className="collapse navbar-collapse navbar-right">*/}
+            {/*                <ul className="nav navbar-nav nav-menu">*/}
+            {/*                    <li className="active">*/}
+            {/*                        <a data-scroll href="#home">*/}
+            {/*                            Home <span className="sr-only">(current)</span>*/}
+            {/*                        </a>*/}
+            {/*                    </li>*/}
+            {/*                    <li>*/}
+            {/*                        <a data-scroll href="#features">*/}
+            {/*                            Features*/}
+            {/*                        </a>*/}
+            {/*                    </li>*/}
+            {/*                    /!*<editor-fold desc="Nav Section">*!/*/}
+            {/*                    /!*<li>*!/*/}
+            {/*                    /!*    <a data-scroll href="#screenshots">*!/*/}
+            {/*                    /!*        Screenshots*!/*/}
+            {/*                    /!*    </a>*!/*/}
+            {/*                    /!*</li>*!/*/}
+            {/*                    /!*<li>*!/*/}
+            {/*                    /!*    <a data-scroll href="#testimonial">*!/*/}
+            {/*                    /!*        Testimonial*!/*/}
+            {/*                    /!*    </a>*!/*/}
+            {/*                    /!*</li>*!/*/}
+            {/*                    /!*<li>*!/*/}
+            {/*                    /!*    <a data-scroll href="#pricing">*!/*/}
+            {/*                    /!*        Pricing*!/*/}
+            {/*                    /!*    </a>*!/*/}
+            {/*                    /!*</li>*!/*/}
+            {/*                    /!*</editor-fold>*!/*/}
+            {/*                    <li>*/}
+            {/*                        <a data-scroll href="#download">*/}
+            {/*                            Download*/}
+            {/*                        </a>*/}
+            {/*                    </li>*/}
+            {/*                    <li>*/}
+            {/*                        <a data-scroll href="#subscribe">*/}
+            {/*                            Subscribe*/}
+            {/*                        </a>*/}
+            {/*                    </li>*/}
+            {/*                </ul>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </nav>*/}
+            {/*</header>*/}
+            {/*</editor-fold>*/}
 
 
             <section id="home" className="hero_section">
@@ -92,7 +93,7 @@ function Home() {
                                 </h1>
                                 <p className="mb-30">
                                     Ensuring secure transactions <br />
-                                    with ease and convinience
+                                    with ease and convenience
                                 </p>
                                 <div className="btn_group">
                                     <a href="#" className="dl_btn">
@@ -445,19 +446,16 @@ function Home() {
                 </div>
             </section>
 
-
-            <footer className="footer_section">
-                <p>&copy; 2017 Escrosis</p>
-            </footer>
-
-            <a data-scroll href="#header" id="scroll-to-top">
-                <i className="arrow_carrot-up"></i>
-            </a>
+            {/*<editor-fold desc="Footer">*/}
+            {/*<footer className="footer_section">*/}
+            {/*    <p>&copy; 2017 Escrosis</p>*/}
+            {/*</footer>*/}
 
 
-
-
-
+            {/*<a data-scroll href="#header" id="scroll-to-top">*/}
+            {/*    <i className="arrow_carrot-up"></i>*/}
+            {/*</a>*/}
+            {/*</editor-fold>*/}
         </>
     )
 }
